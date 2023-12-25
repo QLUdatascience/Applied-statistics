@@ -186,12 +186,10 @@ $$
 1）计算销售额与销售利润之间的相关系数；
 
 $$
-r = \frac{n\sum xy - \sum x \sum y}{\sqrt{n\sum x^2 - (\sum x)^2 \times \sqrt{n\sum y^2 - (\sum y)^2}}} = \frac{6\times 593 - 225\times 13}{\sqrt{6\times 9823 - 225^2 \times \sqrt{6\times 36.7 - 13^2}}} = \frac{633}{443.891} = 1.426
+r = \frac{n\sum xy - \sum x \sum y}{\sqrt{n\sum x^2 - (\sum x)^2 }\times \sqrt{n\sum y^2 - (\sum y)^2}} = \frac{6\times 593 - 225\times 13}{\sqrt{6\times 9823 - 225^2 }\times \sqrt{6\times 36.7 - 13^2}} = \frac{633}{652.39988} = 0.97026
 $$
 
-
 2）给出销售利润对销售额的回归方程，并计算回归方程系数；
-
 $$
 \overline{x} = \frac{\sum x}{n} = \frac{225}{6} = 37.5, \\ 
 \overline{y} = \frac{\sum y}{n} = \frac{13}{6} = 2.167
@@ -216,7 +214,7 @@ $$
 3）计算判定系数 $R^2$
 
 $$
-R^2 = r^2 = 2.033
+R^2 = r^2 = 0.94141
 $$
 
 
@@ -299,7 +297,6 @@ $$
 
 
 **2）确定该食品平均重量的 99%的置信区间。**
-
 $$
 \Delta = \frac{\sigma}{\sqrt{n}} = \frac{1.63433}{\sqrt{50}} \approx 0.23113
 $$
