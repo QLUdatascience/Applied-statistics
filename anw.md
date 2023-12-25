@@ -67,7 +67,6 @@ $$
 **2）使用离散系数比较两组样本数据的离散程度。**
 
 $$
-
 \begin{equation} \label{}
 \begin{split}
 
@@ -77,7 +76,6 @@ s & = \sqrt{\frac{(55-73.16)^2\times10+(65-73.16)^2\times 25+(75-73.16)^2\times 
 
 \end{split}
 \end{equation}
-
 $$
 
 离散系数：
